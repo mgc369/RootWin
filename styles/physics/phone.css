@@ -1,0 +1,85 @@
+body {
+    font-size: 110%;
+}
+
+.kpd, .energy, .bite {
+    margin-left: 40px;
+}
+
+.problem {
+    margin-left: -30px;
+    max-width: 420px;
+}
+
+.energy h1 {
+    text-align: center;
+    font-size: 163%;
+    margin-left: 50px;
+}
+
+.energy h2 {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.hke {
+    text-align: center;
+    margin-left: -10px;
+}
+
+.bite h1 {
+    text-align: center;
+    margin-left: 60px;
+}
+
+.menu {
+    font-size: 90%;
+}
+
+img {
+    width: 20%;
+}
+
+.fpke {
+    margin-top: -10px;
+    margin-left: 13px;
+    position:absolute;
+    width: 20%;
+}
+
+.fke {
+    margin-top: -3px;
+    margin-left: 15px;
+    position: absolute;
+    width: 22%;
+}
+
+.kpd img {
+    width: 30%;
+}
+
+.fkpd {
+    font-size: 60%;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 310px;
+}
+
+.fbite {
+    margin-top: -25px; margin-left: 10px; position: absolute;
+}
+
+.kpd h1 {
+    font-size: 160%;
+    text-align: center;
+}
+
+.overlay {
+    width: 115.2%;
+    height: 628%;
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(144, 134, 134, 0.91);
+    top: 0;
+    left: 0;
+}

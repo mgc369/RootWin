@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Алгебра</title>
+        <link rel="stylesheet" type="text/css" href="styles/algebra/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/algebra/phone.css" media="screen and (max-width: 415px)">
+        <link rel="stylesheet" type="text/css" href="styles/algebra/phone2.css" media="screen and (max-width: 390px)">
+        <link rel="stylesheet" type="text/css" href="styles/algebra/gfold.css" media="screen and (max-width: 280px)">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="allcontent">
+            <div class="menu">
+                <div class="burger">
+                    <span class="right-tr"></span><br>
+                    <span class="no-tr"></span><br>
+                    <span class="left-tr"></span><br>
+                </div>
+                <ul class="burger-menu">
+                    <li><a class="fontcolor" href="index.html">Главная</a></li>
+                    <li style="color: #e1e1e196;"><!--a style="color: #e1e1e196;" href=""></a-->Алгебра</li>
+                    <li><a class="fontcolor" href="physics.html">Физика</a></li>
+                    <li><a id="opa" class="fourth-eff" href="#opa">Поддержка</a><br></li><div class="counter"></div>
+                    <p class="support-hiden"><a href="mailto:rootwin.tech@gmail.com">Написать нам</a></p>
+                </ul>
+            </div>
+            <div class="odnochleny">
+                <h1>Одночлены и многочлены</h1>
+                <h2>Одночлены</h2>
+                <p class="problem">
+                    Одночлен - это произведение чисел, переменных и их степеней.
+                </p>
+                <p class="theory">Например: -7, x<sup>2</sup>, c<sup>2</sup>xy, -a, 5ax<sup>3</sup>.</p>
+                <p class="problem">
+                    <b>Стандартный вид одночлена</b> - это такой вид одночлена, где на первом месте 
+                    стоит числовой множитель, а за ним переменные и их степени.
+                </p>
+                <p class="theory">
+                    Например: 6a<sup>5</sup>b, где 6 - коэффициент, a и b - переменные с их показателями степени.
+                    А если просто переменная, например: x, то числовым множителем будет 1,
+                    так как x = 1 * x.
+                </p>
+                <p class="problem">
+                    <b>Степень одночлена</b> - это сумма степеней всех переменных одночлена.
+                </p>
+                <p class="theory">
+                    Например: 5xyz, степень этого одночлена равна 3, так как
+                    5xyz = 5x<sup>1</sup>y<sup>1</sup>z<sup>1</sup> => складываем степени 1+1+1 = 3.
+                </p>
+                <p class="problem">
+                    Чтобы <b>умножить одночлен на одночлен</b> нужно перемножить коэффициенты
+                    и степени с одинаковыми основаниями, а степени с разными основаниями и
+                    другие переменные остаются прежними.
+                </p>
+                <p class="theory">Нарпимер: -3a<sup>2</sup>b<sup>3</sup>c * 5a<sup>3</sup>bc<sup>2</sup>d = (-3*5)*(a<sup>2</sup>*a<sup>3</sup>)*(b<sup>3</sup>*b)*(c*c<sup>2</sup>)*d = -15a<sup>5</sup>b<sup>4</sup>c<sup>3</sup>d.</p>
+                <p class="problem">
+                    Чтобы <b>возвести в степень одночлен</b> нужно возвести в эту степень каждый множитель и полученные результаты перемножить.
+                </p>
+                <p class="theory">Например: (4x<sup>3</sup>yz<sup>5</sup>p<sup>2</sup>q<sup>8</sup>)<sup>2</sup> = 4<sup>2</sup>x<sup>3*2</sup>y<sup>2</sup>z<sup>5*2</sup>p<sup>2*2</sup>q<sup>8*2</sup> = 16x<sup>6</sup>y<sup>2</sup>z<sup>10</sup>p<sup>4</sup>q<sup>16</sup>.</p>
+                <hr color="black" size="0.5">
+                <p class="alarm">
+                    Примечание - для практики открывайте ваш учебник по Алгебре и решате задания, чтобы <b>закрепить полученные знания.</b>
+                </p>
+            </div>
+            <div class="mnogochleny">
+                <h2>Многочлены</h2>
+                <p class="problem">
+                    <b>Многочлен</b> - это сумма одночленов. Например: 2x<sup>3</sup>+5v<sup>5</sup>r+6+12ab<sup>6</sup>c<sup>8</sup>.
+                </p>
+                <p class="problem">
+                    <b>Члены многочлена</b> - это одночлены, из которых состоит многочлен.
+                </p>
+                <p class="theory">
+                    Например: ab<sup>2</sup>+3x-y<sup>2</sup>+6-m.
+                    Члены этого многочлена являются одночлены: ab<sup>2</sup>, 3x, -y<sup>2</sup>, 6, -m. Если многочлен состоит из двух одночленов, его называют <b>двучленом</b>, а если состоит из трех одночленов - <b>трехчленом</b>.
+                </p>
+                <p class="problem">
+                    <b>Стандартный вид многочлена</b> - это многочлен, у которого одночлены превидены к стандартному виду и им нет подобных одночленов.
+                </p>
+                <p class="theory">Например приведем к стандартному виду многочлен: 2ab+3a-3ab = 2ab-3ab+3a = 3a-ab.</p>
+                <p class="problem">
+                    <b>Степень многочлена</b> - это одночлен с наибольшей степенью, входящий в этот многочлен.
+                </p>
+                <p class="theory">
+                    Например: 1.5x<sup>2</sup>-2ab+10xyz<sup>2</sup>.
+                    Степень данного многолена является 4, так как одночлен 10xyz<sup>2</sup> является одночленом с наибольшей степенью, то есть 10xyz<sup>2</sup> = 10x<sup>1</sup>y<sup>1</sup>z<sup>2</sup>, складываем степени 1+1+2 = 4.
+                </p>
+                <p class="problem">
+                    <b>Сложение и вычитание многоленов.</b><br>
+                    Чтобы сложить или вычесть многочлены нужно раскрыть скобки каждого многочлена, затем сложить и привести подобные одночлены.
+                </p>
+                <p class="theory">Например: (3x<sup>2</sup>-5xy-7x<sup>2</sup>y) + (5xy-3x<sup>2</sup>+8x<sup>2</sup>y) = 3x<sup>2</sup>-5xy-7x<sup>2</sup>y+5xy-3x<sup>2</sup>+8x<sup>2</sup>y = 8x<sup>2</sup>y-7x<sup>2</sup>.</p>
+                <p class="problem">
+                    Чтобы <b>умножить одночлен на многочлен</b> надо одночлен умножить на все члены многолена.
+                </p>
+                <p class="theory">Например: 4ab<sup>2</sup> * (3a<sup>2</sup>-5a<sup>2</sup>b+6a<sup>2</sup>c) = (4ab<sup>2</sup>*3a<sup>2</sup>) - (4ab<sup>2</sup>*5a<sup>2</sup>b) + (4ab<sup>2</sup>*6a<sup>2</sup>c) = 12a<sup>3</sup>b<sup>2</sup>-20a<sup>3</sup>b<sup>3</sup>+24a<sup>3</sup>b<sup>2</sup>c = 24a<sup>3</sup>b<sup>2</sup>c-20a<sup>3</sup>b<sup>3</sup>+12a<sup>3</sup>b<sup>2</sup>.</p>
+                <p class="problem">
+                    Чтобы <b>умножить многочлен на многочлен</b> надо каждый член одного многочлена умножить на каждый член другого многочлена, затем полученные результаты сложить.
+                </p>
+                <p class="theory">Например: (6x-2a)(4-3x) = (6x*4) + (6x*(-3x)) - (2a*4) + ((-2a)*(-3x)) = 24x-18<sup>1+1</sup>-8a+6ax = 24x-18x<sup>2</sup>-8a+6ax.</p>
+                <p class="problem">
+                    Существует два-три способа для <b>разложения многочлена на множетели</b>, но мы с вами рассмотрим два основных способа.<br>
+                    1) Первый способ - это вынесение общего множителия за скобки.<br>
+                    2) Второй способ - это способ группировки.<br>
+                </p>
+                <p class="theory">
+                    Рассмотрим первый способ. Разложим многочлен на множетели: ax<sup>2</sup>-bx<sup>2</sup>-bx+ax-a+b.<br>
+                    У одночленов ax<sup>2</sup>, -bx<sup>2</sup>, -bx, ax есть общий множитель x.<br>
+                    Вынносим x за скобки, получаем: x(ax-bx-b+a)-(a-b)<br>
+                </p>
+                <p class="theory">
+                    Рассмотрим второй способ. Разложим многочлен на множетели: ac<sup>2</sup>-ad+c<sup>3</sup>-cd-bc<sup>2</sup>+bd.<br>
+                    У двучлена ac<sup>2</sup>-ad общий множитель - a;<br>
+                    У двучлена c<sup>3</sup>-cd общий множитель - c;<br>
+                    У двучлена bc<sup>2</sup>+bd общий множитель - b;<br>
+                    Выносим общие множители за скобки: a(c<sup>2</sup>-d)+c(c<sup>2</sup>-d)-b(c<sup>2</sup>-d);<br>
+                    Выносим c<sup>2</sup>-d за скобки: (a+c-b)(c<sup>2</sup>-d)
+                </p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="scripts/script.js"></script>
+        <div class="overlay"></div>
+    </body>
+</html>

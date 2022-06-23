@@ -1,0 +1,272 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;608;697&family=Poppins:wght@100&display=swap');*/
+
+body{
+    /*background-color: rgb(165, 177, 177);*/
+    /*background-color: rgb(178, 204, 116);*/
+    /*background: rgb(243, 230, 230);*/
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 3px;
+    background: url("../../images/mathjpg.jpg") repeat;
+}
+
+.problem {
+    font-weight: bold;
+    font-style: italic;
+    width: 1100px;
+    padding: 10px;
+    border: green 3px solid;
+    border-radius: 5px;
+}
+
+.allcontent {
+    position: relative;
+    z-index: 1;
+}
+
+.odnochleny {
+    font-size: 140%;
+    margin-top: 50px;
+    width: 80%;
+    padding-left: 100px;
+    line-height: 1.4em;
+    margin-left: 80px;
+}
+
+.odnochleny h1 {
+    margin-left: 400px;
+}
+
+.odnochleny h2 {
+    margin-top: 50px;
+    margin-left: 580px;
+}
+
+.mnogochleny {
+    font-size: 140%;
+    line-height: 1.4em;
+    padding-left: 100px;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 80px;
+}
+
+.mnogochleny h2 {
+    margin-left: 580px;
+}
+
+.alarm {
+    text-align: center;
+    font-style: italic;
+}
+
+/*.examples {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}*/
+
+footer {
+    line-height: 1em;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    color: white;
+    background: #1b1b1b;
+    margin-top: 178px;
+    height: 50px;
+    text-align: center;
+    font-size: 75%;
+}
+
+.menu {
+    user-select: none;
+    margin-top: -40px;
+    position: fixed;
+}
+
+ul p a {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+ul p a:hover, ul p a:active {
+    color: #e1e1e196;
+    transition: all 0.3s ease-in-out;
+}
+
+.burger {
+    user-select: none;
+    line-height: 0.5em;
+    width: 30px;
+    height: 30px;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+span::before {
+    content: "";
+    display: inline-block;
+    background-color: #000;
+    height: 2px;
+    width: 30px;
+}
+
+.right-tr::before {
+    position: absolute;
+    margin-top: 12px;
+    transition: all 0.2s ease;
+}
+
+.right-tr.active-right-tr::before {
+    margin-top: 12px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+.left-tr::before {
+    position: absolute;
+    margin-top: 8px;
+    transition: all 0.2s ease;
+}
+
+.left-tr.active-left-tr::before {
+    margin-top: -5px;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+}
+
+.no-tr::before {
+    position: absolute;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.no-tr.active-no-tr::before {
+    transform: scale(0);
+    transition: all 0.2s ease;
+}
+
+a {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+
+ul li {
+    text-align: left;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.burger-menu {
+    font-size: 115%;
+    background-color: rgb(94, 93, 141);
+    line-height: 2.2em;
+    /*width: 150px;*/
+    margin-left: -150px;
+    width: 130px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    height: 150px;
+    border-radius: 0px 10px 10px 0px ;
+    transition: all 0.3s ease;
+}
+
+.burger-menu.active {
+    opacity: 1;
+    visibility: visible;
+    margin-left: -10px;
+    transition: all 0.2s ease;
+}
+
+.burger-menu.active-change-size {
+    height: 190px;
+    transition: all 0.2s ease;
+}
+
+.fontcolor {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.fontcolor:hover, .fontcolor:active {
+    color: #e1e1e196;
+    transition: all 0.3s ease-in-out;
+}
+
+.fourth-eff {
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.fourth-eff.fourth-eff-change-color {
+    color: #e1e1e196;
+    transition: all 0.3s ease;
+}
+
+.counter {
+    position: absolute;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    display: inline-flex;
+    margin-left: 125px;
+    margin-top: -23px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(-135deg);
+    transition: all 0.3s ease;
+}
+
+.counter.active-counter {
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    border-top: #e1e1e196 2px solid;
+    border-left: #e1e1e196 2px solid;
+}
+
+.support-hiden {
+    background-image: url("../../images/gmail.ico");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0% 43%;
+    padding-left: 20px;
+    position: absolute;
+    margin-top: -15px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 80%;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.support-hiden.active-support {
+    margin-top: 1px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.2s ease;
+}
+
+.support-hiden a::after {
+    position: absolute;
+    content: "";
+    margin-top: 25px;
+    margin-left: -109px;
+    max-width: 108px;
+    border-bottom: rgb(37, 179, 37) 2px solid;
+    transition: all 0.3s ease;
+}
+
+.overlay {
+    width: 100%;
+    height: 308%;
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(157, 155, 155, 0.856);
+    top: 0;
+    left: 0;
+}

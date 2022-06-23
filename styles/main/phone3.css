@@ -1,0 +1,65 @@
+.allcontent {
+    max-width: 740px;
+}
+
+.menu {
+    margin-top: -460px;
+    font-size: 80%;
+}
+
+footer {
+    margin-top: 470px;
+}
+
+.burger-menu {
+    height: 100px;
+}
+
+.burger-menu.active-change-size {
+    height: 120px;
+    transition: all 0.2s ease;
+}
+
+.right-tr::before {
+    position: absolute;
+    margin-top: 8px;
+    transition: all 0.2s ease;
+}
+
+.right-tr.active-right-tr::before {
+    margin-top: 9px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+.left-tr::before {
+    position: absolute;
+    margin-top: 12px;
+    transition: all 0.2s ease;
+}
+
+.left-tr.active-left-tr::before {
+    margin-top: -3px;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+}
+
+.no-tr::before {
+    position: absolute;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.no-tr.active-no-tr::before {
+    transform: scale(0);
+    transition: all 0.2s ease;
+}
+
+.aboutus {
+    position: absolute;
+    background-position: 2% 10%;
+    margin-top: -340px;
+    margin-left: -10px;
+    font-size: 95%;
+    max-width: 250px;
+}

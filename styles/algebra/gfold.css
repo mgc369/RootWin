@@ -1,0 +1,42 @@
+body {
+    font-size: 110%;
+}
+
+.odnochleny h1 {
+    /*line-height: 1.2em;*/
+    margin-left: -70px;
+}
+
+hr {
+    margin-left: -65px;
+}
+
+.odnochleny h2 {
+    margin-left: -30px;
+}
+
+.mnogochleny h2 {
+    margin-left: -30px;
+}
+
+.theory {
+    margin-left: -40px;
+    max-width: 350px;
+}
+
+.alarm {
+    margin-left: -50px;
+}
+
+.problem {
+    max-width: 280px;
+    margin-left: -70px;
+}
+
+.menu {
+    font-size: 90%;
+}
+
+.odnochleny, .mnogochleny {
+    margin-left: 0px;
+}

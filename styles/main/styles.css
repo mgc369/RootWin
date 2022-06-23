@@ -1,0 +1,297 @@
+body{
+    /*background-color: rgb(165, 177, 177);*/ /* цвет фона страницы */
+    /*background-color: rgb(178, 204, 116);*/
+    /*background: rgb(166, 166, 166);*/
+    background: url("../../images/mathjpg.jpg") repeat;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+/*footer {
+    line-height: 1em;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    color: white;
+    background: #1b1b1b;
+    margin-top: 890px;
+    height: 50px;
+    text-align: center;
+    font-size: 75%;
+}*/
+
+.menu {
+    z-index: 20;
+    user-select: none;
+    position: absolute;
+    margin-top: 350px;
+}
+
+ul p a {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+ul p a:hover, ul p a:active {
+    color: #e1e1e196;
+    transition: all 0.3s ease-in-out;
+}
+
+.allcontent {
+    z-index: 1;
+    position: relative;
+}
+
+.aboutus {
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 70px;
+    border-radius: 10px;
+    font-size: 140%;
+    width: 680px;
+    height: 150px;
+    margin-left: 550px;
+    margin-top: 300px;
+    background-image: url("../../images/1200px-React-icon.svg.png");
+    background-position: -2.8% 18%;
+    background-repeat: no-repeat;
+}
+
+.burger {
+    margin-top: -340px;
+    user-select: none;
+    line-height: 0.5em;
+    width: 30px;
+    height: 30px;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+span::before {
+    content: "";
+    display: inline-block;
+    background-color: #000;
+    height: 2px;
+    width: 30px;
+}
+
+.right-tr::before {
+    position: absolute;
+    margin-top: 12px;
+    transition: all 0.2s ease;
+}
+
+.right-tr.active-right-tr::before {
+    margin-top: 12px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+}
+
+.left-tr::before {
+    position: absolute;
+    margin-top: 8px;
+    transition: all 0.2s ease;
+}
+
+.left-tr.active-left-tr::before {
+    margin-top: -5px;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease;
+}
+
+.no-tr::before {
+    position: absolute;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.no-tr.active-no-tr::before {
+    transform: scale(0);
+    transition: all 0.2s ease;
+}
+
+a {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+
+ul li {
+    text-align: left;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.burger-menu {
+    font-size: 115%;
+    background-color: rgb(94, 93, 141);
+    line-height: 2.2em;
+    /*width: 150px;*/
+    margin-left: -150px;
+    width: 130px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    height: 150px;
+    border-radius: 0px 10px 10px 0px ;
+    transition: all 0.3s ease;
+}
+
+.burger-menu.active {
+    opacity: 1;
+    visibility: visible;
+    margin-left: -10px;
+    transition: all 0.2s ease;
+}
+
+.burger-menu.active-change-size {
+    height: 190px;
+    transition: all 0.2s ease;
+}
+
+/*a::after {
+    position: absolute;
+    display: inline-block;
+    border-bottom: rgb(153, 39, 39) 2px solid;
+    content: "";
+    margin-top: 20px;
+    margin-left: -64px;
+    width: 0%;
+    max-width: 63px;
+    transition: all ease-in-out 0.3s;
+}
+
+a:hover::after, a:focus::after, a:target::after {
+    content: "";
+    border-bottom: rgb(153, 39, 39) 2px solid;
+    width: 100%;
+    transition: all ease-in-out 0.3s;
+}
+
+#first-eff::after {
+    content: "";
+    margin-top: 25px;
+    margin-left: -76px;
+    max-width: 75px;
+}
+
+#second-eff::after {
+    content: "";
+    margin-top: 25px;
+    margin-left: -75px;
+    max-width: 75px;
+}
+
+#third-eff::after {
+    content: "";
+    margin-top: 25px;
+    margin-left: -98px;
+    max-width: 97px;
+}*/
+
+.font-color {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.font-color:hover, .fontcolor:active {
+    color: #e1e1e196;
+    transition: all 0.3s ease-in-out;
+}
+
+.fourth-eff {
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.fourth-eff.fourth-eff-change-color {
+    color: #e1e1e196;
+    transition: all 0.3s ease;
+}
+
+.counter {
+    position: absolute;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    display: inline-flex;
+    margin-left: 125px;
+    margin-top: -23px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(-135deg);
+    transition: all 0.3s ease;
+}
+
+.counter.active-counter {
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    border-top: #e1e1e196 2px solid;
+    border-left: #e1e1e196 2px solid;
+}
+
+/*.fourth-eff::after {
+    content: "";
+    border: none;
+    margin-top: 27px;
+    margin-left: -102px;
+    max-width: 101px;
+}
+
+.fourth-eff:hover::after, .fourth-eff:focus::after, .fourth-eff:target::after {
+    border: none;
+}*/
+
+.support-hiden {
+    background-image: url("../../images/gmail.ico");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0% 43%;
+    padding-left: 20px;
+    position: absolute;
+    margin-top: -15px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 80%;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.support-hiden.active-support {
+    margin-top: 1px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.2s ease;
+}
+
+/*.support-hiden a::after {
+    position: absolute;
+    content: "";
+    margin-top: 25px;
+    margin-left: -109px;
+    max-width: 108px;
+    border-bottom: rgb(37, 179, 37) 2px solid;
+    transition: all 0.3s ease;
+}*/
+
+/*#closenone {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}*/
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(157, 155, 155, 0.856);
+    top: 0;
+    left: 0;
+}

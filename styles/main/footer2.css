@@ -1,0 +1,21 @@
+footer {
+    margin-top: 525px;
+    max-width: 340px;
+    width: 270px;
+    margin-left: 5px;
+}
+
+.menu {
+    margin-top: -510px;
+}
+
+.aboutus {
+    position: absolute;
+    background-position: 2% 10%;
+    flex: 1 1 auto;
+    margin-top: -380px;
+    margin-left: -30px;
+    font-size: 95%;
+    max-width: 250px;
+    margin-bottom: 100px;
+}
