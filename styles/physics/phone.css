@@ -83,3 +83,11 @@ img {
     top: 0;
     left: 0;
 }
+
+.directory {
+    margin-left: 240px;
+}
+
+.directory.dirsize {
+    height: 280px;
+}

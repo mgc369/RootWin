@@ -33,4 +33,19 @@ $(document).ready(function() {
         $(".burger-menu").toggleClass("active-change-size");
         $(".fourth-eff").toggleClass("fourth-eff-change-color");
     });
+    ////////////////////////////////////////////////////////////////////////////////////////
+    $(".dirlink").click(function() {
+        $(".directory").toggleClass("dirsize");
+        $(".list").toggleClass("listsize");
+        $(".arrow").toggleClass("active-counter");
+    });
+    document.addEventListener("click", function(e) {
+        const drlink = document.querySelector(".dirlink");
+        const drlinkClick = e.composedPath().includes(drlink);
+        if (!drlinkClick) {
+            $(".directory").removeClass("dirsize");
+            $(".list").removeClass("listsize");
+            $(".arrow").removeClass("active-counter");
+        }
+    });
 });

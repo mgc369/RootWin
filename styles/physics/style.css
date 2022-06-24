@@ -147,7 +147,6 @@ span::before {
 a {
     outline: none;
     color: #000;
-    text-decoration: none;
 }
 
 ul li {
@@ -269,4 +268,73 @@ ul li {
     background-color: rgba(157, 155, 155, 0.856);
     top: 0;
     left: 0;
+}
+
+.directory {
+    position: fixed;
+    margin-left: 1500px;
+    margin-top: -20px;
+    background-color: rgb(150, 23, 23);
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.directory a {
+    color: #000;
+    user-select: none;
+    text-decoration: underline;
+}
+
+.directory a:hover {
+    color: #e1e1e196;
+    transition: all 0.1s ease;
+}
+
+.arrow {
+    position: absolute;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    display: inline-flex;
+    margin-left: 70px;
+    margin-top: -32px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(-135deg);
+    transition: all 0.3s ease;
+}
+
+.arrow.active-counter {
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+    border-top: #e1e1e196 2px solid;
+    border-left: #e1e1e196 2px solid;
+}
+
+.directory.dirsize {
+    height: 250px;
+}
+
+.directory h3 {
+    user-select: none;
+    cursor: pointer;
+}
+
+.list {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -70px;
+    margin-left: -5px;
+    position: absolute;
+    text-decoration: solid;
+    line-height: 1.6em;
+    transition: all 0.2s ease;
+}
+
+.list.listsize {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 5px;
 }
