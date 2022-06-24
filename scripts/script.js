@@ -15,6 +15,7 @@ $(document).ready(function() {
             $(".right-tr").removeClass("active-right-tr");
             $(".no-tr").removeClass("active-no-tr");
             $(".left-tr").removeClass("active-left-tr");
+            $(".support-hiden").removeClass("active-support");
         }
     });
     $(".fourth-eff").click(function(e) {
