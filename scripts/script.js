@@ -17,6 +17,7 @@ $(document).ready(function() {
             $(".left-tr").removeClass("active-left-tr");
             $(".support-hiden").removeClass("active-support");
             $(".burger-menu").removeClass("active-change-size");
+            $(".fourth-eff").removeClass("fourth-eff-change-color");
         }
     });
     $(".fourth-eff").click(function(e) {
