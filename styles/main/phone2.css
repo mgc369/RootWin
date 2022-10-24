@@ -21,7 +21,8 @@ body {
 
 .burger-menu {
     font-size: 120%;
-    background-color: rgb(48, 46, 133);
+    /*background-color: rgb(48, 46, 133);*/
+    background-color: rgb(94, 93, 141);
     line-height: 2.2em;
     /*width: 150px;*/
     margin-left: -150px;

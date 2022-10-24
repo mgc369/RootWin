@@ -7,7 +7,6 @@ body{
     color: #000;
     font-family: "Open Sans", sans-serif;
     font-weight: 3px;
-    background: url("../../images/mathjpg.jpg") repeat;
 }
 
 .problem {
@@ -20,8 +19,11 @@ body{
 }
 
 .allcontent {
+    background: url("../../images/mathjpg.jpg") repeat;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    margin-top: -30px;
+    padding-top: 70px;
 }
 
 .odnochleny {
@@ -262,11 +264,13 @@ ul li {
 }
 
 .overlay {
-    width: 100%;
-    height: 308%;
-    position: absolute;
-    z-index: 0;
+    /*width: 100%;
+    height: 308%;*/
     background-color: rgba(157, 155, 155, 0.856);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
 }
@@ -275,12 +279,14 @@ ul li {
     position: fixed;
     margin-left: 1500px;
     margin-top: -40px;
-    background-color: rgb(150, 23, 23);
+    /*background-color: rgb(150, 23, 23);*/
+    background-color: green;
     height: 60px;
     width: 180px;
     text-align: center;
     border-radius: 10px;
     transition: all 0.2s ease;
+    z-index: 10;
 }
 
 .directory a {

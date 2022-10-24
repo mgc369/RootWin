@@ -7,6 +7,12 @@ body{
     overflow-y: hidden;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 /*footer {
     line-height: 1em;
     border-radius: 10px;
@@ -25,6 +31,7 @@ body{
     user-select: none;
     position: absolute;
     margin-top: 350px;
+    margin-left: 10px;
 }
 
 ul p a {
@@ -286,11 +293,15 @@ a:hover::after, a:focus::after, a:target::after {
 }*/
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
+    /*width: 100%;
+    height: 308%;*/
     background-color: rgba(157, 155, 155, 0.856);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
     top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
 }

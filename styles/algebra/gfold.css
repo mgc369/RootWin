@@ -1,14 +1,20 @@
 body {
-    font-size: 110%;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.allcontent {
+    width: 130%;
 }
 
 .odnochleny h1 {
     /*line-height: 1.2em;*/
-    margin-left: -70px;
+    margin-left: -130px;
 }
 
 hr {
     margin-left: -65px;
+    max-width: 110%;
 }
 
 .odnochleny h2 {
@@ -21,11 +27,15 @@ hr {
 
 .theory {
     margin-left: -40px;
-    max-width: 350px;
+    max-width: 290px;
+}
+
+.mnogochleny.theory {
+    margin-left: -50px;
 }
 
 .alarm {
-    margin-left: -50px;
+    margin-left: -60px;
 }
 
 .problem {
@@ -39,4 +49,8 @@ hr {
 
 .odnochleny, .mnogochleny {
     margin-left: 0px;
+}
+
+.directory {
+    margin-left: 150px;
 }

@@ -1,5 +1,9 @@
 body {
-    font-size: 110%;
+    font-size: 100%;
+}
+
+.allcontent {
+    width: 100%;
 }
 
 .kpd, .energy, .bite {
@@ -8,18 +12,19 @@ body {
 
 .problem {
     margin-left: -30px;
-    max-width: 420px;
+    max-width: 350px;
 }
 
 .energy h1 {
     text-align: center;
     font-size: 163%;
-    margin-left: 50px;
+    margin-left: -20px;
+    margin-top: 60px;
 }
 
 .energy h2 {
     text-align: center;
-    margin-left: 80px;
+    margin-left: -10px;
 }
 
 .hke {
@@ -41,15 +46,15 @@ img {
 }
 
 .fpke {
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left: 13px;
     position:absolute;
     width: 20%;
 }
 
 .fke {
-    margin-top: -3px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: -220px;
     position: absolute;
     width: 22%;
 }
@@ -61,12 +66,14 @@ img {
 .fkpd {
     font-size: 60%;
     position: absolute;
-    margin-top: -30px;
-    margin-left: 310px;
+    margin-top: 5px;
+    margin-left: 190px;
 }
 
 .fbite {
-    margin-top: -25px; margin-left: 10px; position: absolute;
+    margin-top: 30px;
+    margin-left: -180px;
+    position: absolute;
 }
 
 .kpd h1 {
@@ -75,19 +82,28 @@ img {
 }
 
 .overlay {
-    width: 115.2%;
-    height: 628%;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    z-index: 0;
-    background-color: rgba(144, 134, 134, 0.91);
-    top: 0;
-    left: 0;
+    z-index: -1;
 }
 
 .directory {
-    margin-left: 240px;
+    margin-left: 180px;
 }
 
 .directory.dirsize {
     height: 280px;
+}
+
+#bi {
+    margin-left: -20px;
+}
+
+#kp {
+    margin-left: -40px;
+}
+
+.kpdformula {
+    margin-left: 50px;
 }
