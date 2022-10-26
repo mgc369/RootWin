@@ -2,6 +2,27 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.fke.show {
+    transform: translateX(-100px);
+}
+
+.kfor {
+    align-items: center;
+}
+
 .allcontent {
     background: url("../../images/mathjpg.jpg") repeat;
     z-index: 2;
@@ -71,6 +92,7 @@ body {
     user-select: none;
     margin-top: -20px;
     position: fixed;
+    z-index: 10;
 }
 
 .fbite {

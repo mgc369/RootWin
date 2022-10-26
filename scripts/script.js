@@ -48,4 +48,26 @@ $(document).ready(function() {
             $(".arrow").removeClass("active-counter");
         }
     });
+    const observer = new IntersectionObserver((e) => {
+        e.forEach((e) => {
+            console.log(e)
+            if (e.isIntersecting) {
+                e.target.classList.add("show");
+            } else {
+                e.target.classList.remove("show");
+            }
+        });
+    });
+    const helms = document.querySelectorAll(".hidden");
+    helms.forEach((el) => observer.observe(el));
 });
+
+/*function showhelms() {
+    if (helms.isIntersecting) {
+        helms.target.classList.add("show");   
+    } else {
+        helms.target.classList.remove("show");
+    }
+}
+const helms = document.querySelectorAll(".hidden");
+showhelms();*/

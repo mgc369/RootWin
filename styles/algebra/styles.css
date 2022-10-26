@@ -9,6 +9,19 @@ body{
     font-weight: 3px;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
 .problem {
     font-weight: bold;
     font-style: italic;
@@ -85,6 +98,7 @@ footer {
     user-select: none;
     margin-top: -40px;
     position: fixed;
+    z-index: 10;
 }
 
 ul p a {

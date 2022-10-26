@@ -13,6 +13,19 @@ html, body {
     overflow-x: hidden;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
 /*footer {
     line-height: 1em;
     border-radius: 10px;
@@ -59,9 +72,9 @@ ul p a:hover, ul p a:active {
     height: 150px;
     margin-left: 550px;
     margin-top: 300px;
-    background-image: url("../../images/1200px-React-icon.svg.png");
     background-position: -2.8% 18%;
     background-repeat: no-repeat;
+    background-image: url("../../images/1200px-React-icon.svg.png");
 }
 
 .burger {
